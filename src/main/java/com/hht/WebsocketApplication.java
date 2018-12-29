@@ -17,6 +17,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
  * @description
  */
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
+
 public class WebsocketApplication {
     /**
      * @param args
